@@ -1,14 +1,19 @@
 
+
+
 $(function(){
     $(".emoji ").click(function(e){
         $('#CommentBox').val($('#CommentBox').val()+e.target.innerHTML);
     });
 });
 
+
 var isScrolling;
 
-// Get the navbar
+// Get the navba
 var navbar = document.getElementById("nav");
+
+
 
 window.addEventListener('scroll', function ( event ) {
 

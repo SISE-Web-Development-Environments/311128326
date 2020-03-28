@@ -20,7 +20,7 @@ section {
 	-ms-overflow-style: scrollbar;
 	padding-bottom: 50px;
 	text-align: center;
-	padding-top: 58px;
+	margin-top: 40px;
 }
 
 section h4 {
@@ -30,6 +30,14 @@ section h4 {
 section p {
 	padding-left: 10% ;
 	padding-right: 10% ;
+}
+
+section:target{
+	padding-top: 58px;
+}
+
+#about{
+	padding-top: 58px;
 }
 
 /* Photos */

@@ -6,7 +6,6 @@
 </head>
 <body>
 <div id="fb-root"></div>
-<div id="menu">
  <nav id="nav" >
  <ul >
 <li><a href="#about">About Me</a></li>
@@ -18,7 +17,6 @@
 <li><a href="#contact">Contact Me</a></li>
  </ul>
  </nav>
-</div>
 <section id="about" class="section">
 <h4> About me</h4>
 <p>
@@ -40,7 +38,7 @@
   <div class="column">
    <img class="zoom" src="images/argentina.jpg">
    <img class="zoom" src="images/purim.jpg">
-  </div>
+ </div>
  </div>
 </section>
 
@@ -137,18 +135,10 @@
 
 
 <script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash);
-  });
-});
+
+
 </script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });
- </script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0&appId=267774203601771&autoLogAppEvents=1"></script>
