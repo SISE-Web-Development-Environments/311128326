@@ -1,8 +1,7 @@
-console.log("hello");
 
 $(function(){
-    $("#emoji ").click(function(e){
-        alert("emoji");
+    $(".emoji ").click(function(e){
+        $('#CommentBox').val($('#CommentBox').val()+e.target.innerHTML);
     });
 });
 

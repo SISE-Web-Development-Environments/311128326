@@ -15,10 +15,12 @@
 	}
 
 /* Section */
+
 section {
 	-ms-overflow-style: scrollbar;
 	padding-bottom: 50px;
 	text-align: center;
+	padding-top: 58px;
 }
 
 section h4 {
