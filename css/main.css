@@ -36,6 +36,8 @@ section:target{
 	padding-top: 58px;
 }
 
+
+/* About*/
 #about{
 	padding-top: 58px;
 }
@@ -212,13 +214,6 @@ section:target{
 	}
 
 /* Nav */
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
-}
 
 		#nav ul {
 						list-style-type: none;
