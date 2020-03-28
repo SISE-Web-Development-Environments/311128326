@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
+<div id="fb-root"></div>
 <div id="menu">
+ <nav id="nav" >
+ <ul >
 <li><a href="#about">About Me</a></li>
 <li><a href="#photos">My Photos</a></li>
 <li><a href="#playlist">My Playlist</a></li>
@@ -12,167 +16,128 @@
 <li><a href="#qrcoder">QR code</a></li>
 <li><a href="#spa">Q&A</a></li>
 <li><a href="#contact">Contact Me</a></li>
+ </ul>
+ </nav>
 </div>
-		  
+
 <section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
+ <br/>
+ <br/>
+<h4> About me</h4>
+<p>
+ My name is Ori Eldar, 4th year student in Software Engineering at Ben-Gurion University. My hobbies include playing football, going to the beach and playing
+ the guitar. My expectation from this course is to learn more about front end techniques and the theory behind them. I am more familiar with node.js and new libraries
+ like REACT. I think it's important to learn where everything started to start from the core.
+</p>
+
 </section>
 
 <section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+ <h4> My Photos</h4>
+ <div class="row">
+  <div class="column">
+   <img class="zoom" src="images/beach.jpg">
+   <img class="zoom" src="images/sinai.jpg">
+  </div>
+  <div class="column">
+   <img class="zoom" src="images/friends.jpg">
+  </div>
+  <div class="column">
+   <img class="zoom" src="images/argentina.jpg">
+   <img class="zoom" src="images/purim.jpg">
+  </div>
+ </div>
 </section>
 
 <section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
+ <h4> My Playlist</h4>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLa5j3bV2NHw3gOCcwJPttIWn1_nJ1-YmO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
 <section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+ <h4> Give Me a like</h4>
+ <br/>
+ <br/>
+ <div class="fb-like white-wrapper" data-href="https://orieldar.github.io/ori.github.io/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+ <br/>
+ <br/>
 </section>
 
 <section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+ <h4>Scan my CODE </h4>
+ <img class="zoom" src="images/qrcode.png">
 </section>
 
 <section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
+ <h4>Q&A</h4>
+ <div class="row">
+<p class="white-wrapper-light">
+ <b>Web 1.0, Web 2.0 and Web 3.0 </b>  <br/> <br/>
+ Web 1.0 : The first version of web also referred as Syntactic web or read only web is the era(1990 &ndash; 2000) where the role of a user is limited to reading information provided by the content producers.
+ There is no option given for user or consumer to communicate back the information to the content producers.
+ <br/>
+ <br/>
+ Web 2.0: also referred as Social Web or read-write web is the era(2000 &ndash; 2010 and continues even now) which facilitates interaction between web users and sites which intern allows users to communicate with other users. In this era every user can be a content producers and content is distributed and shared between sites.
+ <br/>
+ <br/>
+ Web 3.0:  also referred as Semantic Web or read-write-execute is the era(2010 and above) which refers to the future of web. In this era computers can interpret information like humans via Artificial Intelligence, Image recognition and Machine Learning. Which help to intelligently generate and distribute useful content tailored to a particular need of a user.
+ <br/>
+ </div>
+</p>
+ <div class="row">
+ <p class="white-wrapper-light column">
+  <b>Three main differences:</b>  <br/> <br/>
+  Web 1.0 :<br/> 1) Mostly Read-Only  <br/>
+    2) Company Focus     <br/>
+ 3) Owning Content    <br/>
+  <br/>
+  Web 2.0 :<br/> 1) Wildly Read-Write  <br/>
+  2) Community Focus    <br/>
+  3) Sharing Content    <br/>
+  <br/>
+  Web 3.0 :<br/> 1) Portable and Personal <br/>
+  2) Individual Focus      <br/>
+  3) Consolidating Content <br/>
+  <br/>
+ </p>
+  <p class="white-wrapper-light column">
+   <b>Differences in Web 1.0 2.0 and 3.0 with with the example of searching for Medication Side Effects:</b>  <br/>  <br/>
+   Web 1.0:  <br/>
+   We would be directed to a page where the answer will be plain text or maybe a link, no high-level of interaction.  <br/>  <br/><br/>
+   Web 2.0:  <br/>
+   We would get number of results from a known search engine, maybe answers from YouTube video explanations or forum threads such as Reddit.
+   We could also ask in social communities such as Facebook, special medical forums etc.  <br/>  <br/><br/>
+   Web 3.0:  <br/>
+   We would get results based on out preferences, preferred sites and type of content, Specially tailored information that the web has selected for us.
+   <br/>
+  </p>
+ </div>
 </section>
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+ <h4>Contact Me</h4>
+ <form action="mailto:orieleldardar@gmail.com?subject=Hello%20Ori" method="post" enctype="text/plain">
+  Name:<br>
+  <input type="text" name="Name"><br>
+  E-mail:<br>
+  <input type="text" name="Email"><br>
+  Comment:<br>
+  <textarea id="CommentBox" name="Content" ></textarea><br><br>
+  <p>
+   Insert Emoji <br>
+   <span class="emoji">&#129409;</span>
+   <span class="emoji">&#128585;</span>
+   <span class="emoji">&#128540;</span>
+   <span class="emoji">&#128522;</span>
+   <span class="emoji">&#128517;</span>
+   <span class="emoji">&#128512;</span>
+   <span class="emoji">&#128077;</span>
+   <span class="emoji">&#11088;</span>
+  </p>
+  <input type="submit" value="Send Me a mail">
+  <input type="reset" value="Reset">
+ </form>
+
 </section>
 
 
@@ -180,14 +145,26 @@ contact me
 $(function(){
   $("#nav a").click(function(e){
     e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
+    $('html,body').scrollTo(this.hash,this.hash);
   });
 });
 </script>
 <script type="text/javascript">
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
- });​
+ });
  </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+ $(function(){
+  $(".emoji ").click(function(e){
+   $('#CommentBox').val($('#CommentBox').val()+e.target.innerHTML);
+  });
+ });
+</script>
+
+
+<script type="text/javascript" src="js/index.js"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0&appId=267774203601771&autoLogAppEvents=1"></script>
 </body>
 </html>

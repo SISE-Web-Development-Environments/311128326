@@ -1,0 +1,261 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+
+
+/* Basic */
+	body {
+		-ms-overflow-style: scrollbar;
+		margin: 0;
+	}
+
+
+	body {
+		background: #fff;
+	}
+
+/* Section */
+section {
+	-ms-overflow-style: scrollbar;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+section h4 {
+	background-color:#bbbbbb ;
+}
+
+section p {
+	padding-left: 10% ;
+	padding-right: 10% ;
+}
+
+/* Photos */
+#photos {
+	background-image: url('../images/background1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#photos .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 40px;
+	text-align: center;
+	margin-left: 10em;
+	margin-right: 10em;
+
+}
+
+/* Create four equal columns that sits next to each other */
+#photos .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+#photos .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+
+}
+
+.zoom {
+	transition: transform .5s;
+	margin: 0 auto;
+}
+
+.zoom:hover {
+	transform: scale(1.8);
+}
+
+/* Image */
+
+.image {
+	border-radius: 0;
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+
+/* Like */
+#like {
+	background-image: url('../images/grayhearts.jpg');
+	background-attachment: fixed;
+}
+
+/* Q&A */
+#spa {
+	background-image: url('../images/questionmark.jpg');
+	background-attachment: fixed;
+}
+
+#spa .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 40px;
+	text-align: center;
+	margin-left: 10em;
+	margin-right: 10em;
+
+}
+
+/* Create four equal columns that sits next to each other */
+#spa .column {
+	flex: auto;
+	max-width: 75%;
+	padding: 5px 15px;
+	display: block;
+	margin: 0 20px;
+
+}
+
+
+/* Contact */
+
+#contact span{
+	cursor: pointer;
+}
+
+#contact textarea{
+	width: 40em;
+	height: 6em;
+}
+
+.white-wrapper{
+	padding: 10px 80px;
+	margin: 0 40px;
+	border-radius: 25px;
+	background: white;
+	text-align: left;
+}
+
+.white-wrapper-light{
+	padding: 10px 80px;
+	margin: 0 40px;
+	border-radius: 15px;
+	background: white;
+	text-align: left;
+}
+/* Type */
+
+	body, input, textarea {
+		color: #9a9a9a;
+		font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: 400;
+		line-height: 1.65;
+	}
+
+
+	p {
+		margin: 0 0 2em 0;
+	}
+
+	h4 {
+		color: #555;
+		font-weight: 400;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+		font-size: 1.5em;
+	}
+
+
+/* List */
+
+	ul {
+		list-style: disc;
+		margin: 0 0 2em 0;
+		padding-left: 1em;
+	}
+
+	ul li {
+		display: inline;
+	}
+
+
+/* Button */
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		border-radius: 30px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-size: .75em;
+		font-weight: 400;
+		height: 3.75em;
+		line-height: 3.85em;
+		letter-spacing: 2px;
+		padding: 0 4em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
+/* Nav */
+#menu
+{
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	background: white;
+}
+
+		#nav ul {
+						list-style-type: none;
+						overflow: hidden;
+						background-color: #636363;
+						text-align: center;
+						transition: opacity .25s ease-in-out;
+						-moz-transition: opacity .25s ease-in-out;
+						-webkit-transition: opacity .25s ease-in-out;
+						position: fixed;
+						z-index: 10;
+						top: 0;
+						width: 100%;
+					}
+
+		#nav li {
+						float: left;
+					}
+
+		#nav li a {
+						display: inline-block;
+						color: #e3e3e3;
+						text-align: center;
+						padding: 14px 16px;
+						text-decoration: none;
+					}
+
+		#nav li:hover {
+					background-color: #444444;
+					}
+
+		#nav a:hover {
+			color: white;
+		}
+
+
+		.transparent {
+		opacity: 0.2;
+			transition: opacity .5s ease-in-out;
+			-moz-transition: opacity .5s ease-in-out;
+			-webkit-transition: opacity .5s ease-in-out;
+		}
+
+		.transparent-out {
+			opacity: 1;
+			transition: opacity .5s ease-in-out;
+			-moz-transition: opacity .5s ease-in-out;
+			-webkit-transition: opacity .5s ease-in-out;
+		}
+
